@@ -84,12 +84,93 @@ export const sampleVictims = [
   },
   {
     id: 11,
-    name: "Soumeya Bouchrit",
+    name: "Unknown",
     age: 45,
     date: "05-04-2025",
-    location: "Zaalani",
+    location: "Sabt, Skikda",
     description: "Shot to death, by her father."
+  },
+  {
+    id: 12,
+    name: "Bodane",
+    age: 50,
+    date: "05-04-2025",
+    location: "Zabouja, Chlef",
+    description: "Disabled women, living on the streets after getting abandoned, killed by unknown assailants, the body was found dumped in the forest, with bruises and signs of violence all over her body.",
+  },
+  {
+    id: 13,
+    name: "Bahten Tounes",
+    age: 40,
+    date: "08-04-2025",
+    location: "Meftah, Blida",
+    description: "Mother of three children, highschool principal, stabbed to death by her husband."
+  },
+  {
+    id: 14,
+    name: "Unknown",
+    age: 8,
+    date: "08-04-2025",
+    location: "Meftah, Blida",
+    description: "Strangled to death by her father, related to the previous case of Bahten Touness, her mother."
+  },
+  {
+    id: 15,
+    name: "Hasina Slimani",
+    age: 65,
+    date: "08-04-2025",
+    location: "Ouled Sidi Brahim, Msila",
+    description: "Retired Middle school english teacher, stabbed to death by her son."
+  },
+  {
+    id: 16,
+    name: "Sarah Ait Mohand",
+    age: 28,
+    date: "08-04-2025",
+    location: "Bourj Bou Arreridj",
+    description: "Mother of two little girls, killed by her husband, alongside her two daughters, aged 4 and 6 years old. Husband then tried to fabricate a story about the mother killing her daughters & commiting suicide."
+  },
+  {
+    id: 17,
+    name: "Unknown",
+    age: 4,
+    date: "08-04-2025",
+    location: "Bourj Bou Arreridj",
+    description: "Little girl, aged 4, killed by her stepdad, alongside her mother and sister, related to the case of Sarah Ait Mohand."
+  },
+  {
+    id: 18,
+    name: "Unknown",
+    age: 6,
+    date: "08-04-2025",
+    location: "Bourj Bou Arreridj",
+    description: "Little girl, aged 6, killed by her stepdad, alongside her mother and sister, related to the case of Sarah Ait Mohand."
+  },
+  {
+    id: 19,
+    name: "Unknown",
+    age: "Unknown",
+    date: "14-04-2025",
+    location: "Reghaia, Algiers",
+    description: "Killed by her ex-husband. According to police, her body was found between trees near a train station."
+  },
+  {
+    id: 20,
+    name: "Walida Derafa",
+    age: 48,
+    date: "28-04-2025",
+    location: "Ain azal, Setif",
+    description: "Hammered to death by her husband."
+  },
+  {
+    id: 21,
+    name: "Saida Ben Hamouda",
+    age: 51,
+    date: "25-04-2025",
+    location: "Batna",
+    description: "Stabbed & strangled to death by her husband."
   }
+  
 ];
 
 export const activeYear = 2025;
