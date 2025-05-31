@@ -1,4 +1,4 @@
-import { AlertTriangle, Calendar, Users } from "lucide-react";
+import { AlertTriangle, Calendar ,Scale} from "lucide-react";
 
 export const StatsBar = ({deaths,year,est,justice}) => {
     return (
@@ -25,8 +25,8 @@ export const StatsBar = ({deaths,year,est,justice}) => {
               
               <div className="bg-gradient-to-r from-indigo-600/80 to-blue-600/80 rounded-xl p-6 backdrop-blur-sm border border-indigo-300/20">
                 <div className="flex items-center justify-center mb-3">
-                  <Users className="w-8 h-8 text-white mr-2" />
-                  <span className="text-3xl font-bold text-white">{justice}%</span>
+                  <Scale className="w-8 h-8 text-white mr-2" />
+                  <span className="text-3xl font-bold text-white">Not Calculated Yet</span>
                 </div>
                 <h3 className="text-lg font-semibold text-white">Justice Rate</h3>
                 <p className="text-indigo-100 text-sm mt-1">Cases with conviction</p>

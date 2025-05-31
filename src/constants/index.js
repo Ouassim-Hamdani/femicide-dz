@@ -156,22 +156,49 @@ export const sampleVictims = [
   },
   {
     id: 20,
+    name: "Saida Ben Hamouda",
+    age: 51,
+    date: "25-04-2025",
+    location: "Batna",
+    description: "Stabbed & strangled to death by her husband."
+  },
+  {
+    id: 21,
     name: "Walida Derafa",
     age: 48,
     date: "28-04-2025",
     location: "Ain azal, Setif",
     description: "Hammered to death by her husband."
   },
-  {
-    id: 21,
-    name: "Saida Ben Hamouda",
-    age: 51,
-    date: "25-04-2025",
-    location: "Batna",
-    description: "Stabbed & strangled to death by her husband."
-  }
+  
   
 ];
 
 export const activeYear = 2025;
 
+
+export function averageFrequency(events) {
+  // Sort by date ascending
+  const sorted = [...events].sort((a, b) => {
+    const [d1, m1, y1] = a.date.split('-').map(Number);
+    const [d2, m2, y2] = b.date.split('-').map(Number);
+    return new Date(y1, m1 - 1, d1) - new Date(y2, m2 - 1, d2);
+  });
+
+  // Convert dates to Date objects
+  const dates = sorted.map(e => {
+    const [d, m, y] = e.date.split('-').map(Number);
+    return new Date(y, m - 1, d);
+  });
+
+  // Calculate differences in days
+  const diffs = [];
+  for (let i = 1; i < dates.length; i++) {
+    const diff = (dates[i] - dates[i - 1]) / (1000 * 60 * 60 * 24);
+    diffs.push(diff);
+  }
+
+  // Calculate average
+  const avg = diffs.reduce((a, b) => a + b, 0) / diffs.length;
+  return Math.round(avg);
+}
