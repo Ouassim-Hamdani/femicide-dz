@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Femicide Algeria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Breaking the Silence: Documenting Violence Against Women in Algeria**
 
-## Available Scripts
+🌐 **Live Site:** [femecide.com](https://femecide.com)
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+Femicide Algeria is a digital memorial and awareness platform dedicated to documenting cases of femicide and gender-based violence in Algeria. This project serves as both a tribute to victims and a call for societal change.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Our Mission
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Remember the Victims**: Honor the lives lost to gender-based violence
+- **Raise Awareness**: Shine light on the epidemic of violence against women
+- **Challenge Culture**: Confront victim-blaming attitudes and toxic cultural norms
+- **Demand Justice**: Advocate for stronger legal protections and accountability
 
-### `npm test`
+## The Reality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Violence against women in Algeria remains largely underreported and systematically ignored. Cultural attitudes that blame victims, shame families into silence, and normalize domestic violence perpetuate this crisis. This platform breaks that silence.
 
-### `npm run build`
+### What We Document
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Individual victim stories and memorials
+- Statistical analysis of femicide cases
+- Cultural factors contributing to violence
+- Resources for survivors and families
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Memorial Wall**: Interactive tribute to victims with their stories
 
-### `npm run eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** - Frontend framework
+- **Tailwind CSS** - Styling and responsive design
+- **Modern Web Technologies** - For optimal user experience
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is a community-driven project. We welcome contributions from:
+- Advocates and activists
+- Survivors and families
+- Developers and designers
+- Feminist organizations.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For sensitive information, support resources, or project collaboration, please reach out to me on my socials.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+*"When we speak, we are afraid our words will not be heard or welcomed. But when we are silent, we are still afraid. So it is better to speak."* - Audre Lorde
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Together, we can break the cycle of silence and violence.**
