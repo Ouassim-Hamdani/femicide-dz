@@ -202,3 +202,47 @@ export function averageFrequency(events) {
   const avg = diffs.reduce((a, b) => a + b, 0) / diffs.length;
   return Math.round(avg);
 }
+
+
+export const victimesMemo = [
+  {
+    id: 1,
+    name: "Asma Bechkit",
+    age: 17,
+    date: "03-07-2013",
+    location: "Mila",
+    description: "Asma Bachkit, at just seventeen,\
+                A young woman from Mila, full of dreams unseen.\
+                On July 3rd, 2013, her baccalaureate won,\
+                She stepped out for butter, cakes to be done,\
+                To celebrate her triumph, sweet and new.\
+                But a man, who'd relentlessly pursued,\
+                Threatened and harassed her, day after day,\
+                Intercepted her then, blocking her way.\
+                She refused to speak, her spirit held strong,\
+                He plunged a knife, over fifteen times wrong.\
+                Asma never returned home, her vibrant light gone.",
+    image: "/images/victims/asmabechkit.png",
+    memorialText: "Remembered as a young woman with a bright future, her life tragically cut short."
+  },
+  {
+    id: 2,
+    name: "Yasmine Tarafi",
+    age: 17,
+    date: "06-07-2020",
+    location: "Bouira",
+    description: "Yasmine Tarafi was a 28-year-old lawyer from Bouira. On July 6, 2020, she was tragically murdered by her ex-fiancé, found with her throat slit in her car.",
+    image: "/images/victims/yasminetarafi.png",
+    memorialText: "Remembering Yasmine, a dedicated lawyer whose life was taken too soon.."
+  },
+  {
+    id: 3,
+    name: "Chaima Sadou",
+    age: 19,
+    date: "01-10-2020",
+    location: "Boumerdes",
+    description: "Chaima was a young woman, just 19 years old, living in the commune of Reghaia, Algiers. In 2017, when she was only 16, a man named Bouchlaghi Abdesslam, known as Rayan, violated her. She filed a complaint against him, but tragically, nothing came of it. Then, on October 1, 2020, fate cruelly intervened when she encountered him again. He took her to an abandoned train station in Thenia, Boumerdes. There, in a horrifying act, he beat, tortured, killed, and ultimately burned her. Her killer was later captured.",
+    image: "/images/victims/chaimasadou.png",
+    memorialText: "Her spirit, though brutally extinguished, will forever ignite a burning call for justice."
+  }
+]

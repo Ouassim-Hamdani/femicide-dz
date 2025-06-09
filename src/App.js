@@ -3,8 +3,10 @@ import { Header } from './components/Header';
 import { StatsBar } from './components/StatsBar';
 import { MemorialSection } from './components/MemorialSection';
 import { Action } from './components/Action';
-import { sampleVictims,activeYear, averageFrequency } from './constants';
+import { sampleVictims,activeYear, averageFrequency,victimesMemo } from './constants';
 import { Footer } from './components/Footer';
+import { MemorialCarousel } from './components/MemorialCarousel';
+
 const FemicideMemorial = () => {
   
 
@@ -18,6 +20,9 @@ const FemicideMemorial = () => {
         <StatsBar deaths={21} year={activeYear}  est={averageFrequency(sampleVictims)} justice={25}/>
 
         <MemorialSection victims={sampleVictims.slice().reverse()}/>
+
+        <MemorialCarousel victims={victimesMemo}/>
+
         <Action/>
 
         <Footer/>
