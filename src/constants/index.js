@@ -211,17 +211,7 @@ export const victimesMemo = [
     age: 17,
     date: "03-07-2013",
     location: "Mila",
-    description: "Asma Bachkit, at just seventeen,\
-                A young woman from Mila, full of dreams unseen.\
-                On July 3rd, 2013, her baccalaureate won,\
-                She stepped out for butter, cakes to be done,\
-                To celebrate her triumph, sweet and new.\
-                But a man, who'd relentlessly pursued,\
-                Threatened and harassed her, day after day,\
-                Intercepted her then, blocking her way.\
-                She refused to speak, her spirit held strong,\
-                He plunged a knife, over fifteen times wrong.\
-                Asma never returned home, her vibrant light gone.",
+    description: "Asma Bachkit, at just seventeen,A young woman from Mila, full of dreams unseen. On July 3rd, 2013, her baccalaureate won, She stepped out for butter, cakes to be done, To celebrate her triumph, sweet and new. But a man, who'd relentlessly pursued, Threatened and harassed her, day after day, Intercepted her then, blocking her way. She refused to speak, her spirit held strong, He plunged a knife, over fifteen times wrong. Asma never returned home, her vibrant light gone.",
     image: "/images/victims/asmabechkit.png",
     memorialText: "Remembered as a young woman with a bright future, her life tragically cut short."
   },
