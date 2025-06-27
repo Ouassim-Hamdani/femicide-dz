@@ -53,7 +53,7 @@ export const Action = () => {
     };
 
     const handleReportCase = () => {
-        alert('Report functionality - you can customize this to open a form or redirect to reporting page');
+        alert('TNot avaiolable yet.');
     };
 
     return (
