@@ -53,7 +53,7 @@ export const Action = () => {
     };
 
     const handleReportCase = () => {
-        alert('TNot avaiolable yet.');
+        alert('Not Available Yet! Please check back later.');
     };
 
     return (
@@ -65,7 +65,7 @@ export const Action = () => {
                     and support organizations working to protect women in Algeria.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <div className="relative">
                         <button 
                             onClick={handleShare}
@@ -83,7 +83,7 @@ export const Action = () => {
                     
                     <button 
                         onClick={handleReportCase}
-                        className="bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 transform hover:scale-105"
+                        className="bg-gradient-to-r w-fit from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white font-bold py-3 px-[39.52px] rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 transform hover:scale-105"
                     >
                         Report a Case
                     </button>
