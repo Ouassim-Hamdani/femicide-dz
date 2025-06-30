@@ -17,7 +17,7 @@ const FemicideMemorial = () => {
       <div className="relative z-10">
         <Header/>
 
-        <StatsBar deaths={21} year={activeYear}  est={averageFrequency(sampleVictims)} justice={25}/>
+        <StatsBar deaths={sampleVictims.length} year={activeYear}  est={averageFrequency(sampleVictims)} justice={25}/>
 
         <MemorialSection victims={sampleVictims.slice().reverse()}/>
 
