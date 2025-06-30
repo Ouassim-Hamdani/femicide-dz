@@ -170,6 +170,13 @@ export const sampleVictims = [
     location: "Ain azal, Setif",
     description: "Hammered to death by her husband."
   },
+  {id: 22,
+    name:"Maroua Boughachich",
+    age: 13,
+    date: "22-05-2025",
+    location: "Constantine",
+    description:"Disappeared on May 22, 2025, her story dominating headlines. Yet, as her family searched, her honor was eroded by insidious rumors that she'd run away with a man—rumors relentlessly spread by certain dirtbag influencers. On June 29, a month after she vanished, DNA identified the body found as hers."
+  }
   
   
 ];
