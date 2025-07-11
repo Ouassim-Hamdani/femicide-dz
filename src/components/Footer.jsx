@@ -14,7 +14,7 @@ export const Footer = () => {
             <div className="mt-4 flex justify-center mb-4">
               <Heart className="w-6 h-6 text-pink-400" />
             </div>
-            <span className="text-purple-300">Maintened by <a className="text-purple-500" target = "_blank"  href="https://www.linkedin.com/in/ouassim-hamdani/">Ouassim Hamdani</a></span>
+            <span className="text-purple-300">Maintened by <a className="text-purple-500" target = "_blank" rel="noreferrer noopener"  href="https://www.linkedin.com/in/ouassim-hamdani/">Ouassim Hamdani</a></span>
           </div>
         </footer>
     );

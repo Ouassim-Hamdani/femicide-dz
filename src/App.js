@@ -12,7 +12,6 @@ const FemicideMemorial = () => {
   const [victimsData, setVictimsData] = useState([]); 
   const [memoData, setMemoData] = useState([]); 
   const [activeYear, setActiveYear] = useState([]); 
-  const [error, setError] = useState(null);
   const API_URL = "https://femicide-dz-backend.vercel.app/"; 
 
   useEffect(() => {
@@ -28,8 +27,7 @@ const FemicideMemorial = () => {
         setActiveYear(responseYear.data.year); 
         console.log("Memos Data fetched successfully");
       } catch (err) {
-        setError(err);
-        console.error("Error fetching data:", err);
+        console.error("Error fetching data:", err); 
       }
     };
 
