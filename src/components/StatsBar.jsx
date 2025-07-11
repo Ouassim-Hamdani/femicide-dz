@@ -1,6 +1,6 @@
-import { AlertTriangle, Calendar ,Scale} from "lucide-react";
+import { AlertTriangle, Calendar ,Hourglass} from "lucide-react";
 
-export const StatsBar = ({deaths,year,est,justice}) => {
+export const StatsBar = ({deaths,year,est,days}) => {
     return (
         <div className="bg-black/30 backdrop-blur-sm py-8 px-6 border-y border-purple-400/30">
           <div className="max-w-6xl mx-auto">
@@ -25,11 +25,11 @@ export const StatsBar = ({deaths,year,est,justice}) => {
               
               <div className="bg-gradient-to-r from-indigo-600/80 to-blue-600/80 rounded-xl p-6 backdrop-blur-sm border border-indigo-300/20">
                 <div className="flex items-center justify-center mb-3">
-                  <Scale className="w-8 h-8 text-white mr-2" />
-                  <span className="text-3xl font-bold text-white">Not Calculated Yet</span>
+                  <Hourglass className="w-8 h-8 text-white mr-2" />
+                  <span className="text-3xl font-bold text-white">{days} Days Ago</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white">Justice Rate</h3>
-                <p className="text-indigo-100 text-sm mt-1">Cases with conviction</p>
+                <h3 className="text-lg font-semibold text-white">Last Reported Death</h3>
+                <p className="text-indigo-100 text-sm mt-1">Days since the last femicide</p>
               </div>
             </div>
           </div>

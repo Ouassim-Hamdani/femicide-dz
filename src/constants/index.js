@@ -1,189 +1,3 @@
-// utils/data.js
-
-// Sample victim data - replace with real data
-export const sampleVictims = [
-  {
-    id: 1,
-    name: "Khadeja Bjaoui",
-    age: 54,
-    date: "04-01-2025",
-    location: "Chelghoum El Aid, Mila",
-    description: "Mother of two children, killed by her own son"
-  },
-  {
-    id: 2,
-    name: "Lila Brahimi",
-    age: 30,
-    date: "13-01-2025",
-    location: "Chreaa, Tebessa",
-    description: "Killed by her husband. Tried to commit suicide afterwards."
-  },
-  {
-    id: 3,
-    name: "Unknown",
-    age: 40,
-    date: "30-01-2025",
-    location: "Beni Zentis, Ghilizan",
-    description: "Mother of three children. Strangled to death by her husband."
-  },
-  {
-    id: 4,
-    name: "Unknown",
-    age: 50,
-    date: "10-02-2025",
-    location: "Bouzerreha, Algiers",
-    description: "Strangled to death by her brother."
-  },
-  {
-    id: 5,
-    name: "Amel Laamouri",
-    age: "Unknown",
-    date: "25-02-2025",
-    location: "Rabeaa, Media",
-    description: "Shot to death by her husband, a police officer."
-  },
-  {
-    id: 6,
-    name: "Ilhem Zouaoui",
-    age: 39,
-    date: "05-03-2025",
-    location: "Fermato, Setif",
-    description: "Killed by her own brother, using a knife."
-  },
-  {
-    id: 7,
-    name: "Nasira Ghalassa",
-    age: 40,
-    date: "10-03-2025",
-    location: "Saada, Biskra",
-    description: "Mother of six children, murdered by her husband."
-  },
-  {
-    id: 8,
-    name: "Unknown",
-    age: 20,
-    date: "19-03-2025",
-    location: "Mohamedia, Algiers",
-    description: "Killed by her husband, via knife wounds sustained on the heart."
-  },
-  {
-    id: 9,
-    name: "Yousra Ben Amar",
-    age: 29,
-    date: "29-03-2025",
-    location: "Setif",
-    description: "Mother of a single daughter, killed by her brother, using a knife."
-  },
-  {
-    id: 10,
-    name: "Soumeya Bouchrit",
-    age: 30,
-    date: "30-03-2025",
-    location: "Zeriba Ouadi, Biskra",
-    description: "Slaughtered to death by her husband."
-  },
-  {
-    id: 11,
-    name: "Unknown",
-    age: 45,
-    date: "05-04-2025",
-    location: "Sabt, Skikda",
-    description: "Shot to death, by her father."
-  },
-  {
-    id: 12,
-    name: "Bodane",
-    age: 50,
-    date: "05-04-2025",
-    location: "Zabouja, Chlef",
-    description: "Disabled women, living on the streets after getting abandoned, killed by unknown assailants, the body was found dumped in the forest, with bruises and signs of violence all over her body.",
-  },
-  {
-    id: 13,
-    name: "Bahten Tounes",
-    age: 40,
-    date: "08-04-2025",
-    location: "Meftah, Blida",
-    description: "Mother of three children, highschool principal, stabbed to death by her husband."
-  },
-  {
-    id: 14,
-    name: "Unknown",
-    age: 8,
-    date: "08-04-2025",
-    location: "Meftah, Blida",
-    description: "Strangled to death by her father, related to the previous case of Bahten Touness, her mother."
-  },
-  {
-    id: 15,
-    name: "Hasina Slimani",
-    age: 65,
-    date: "08-04-2025",
-    location: "Ouled Sidi Brahim, Msila",
-    description: "Retired Middle school english teacher, stabbed to death by her son."
-  },
-  {
-    id: 16,
-    name: "Sarah Ait Mohand",
-    age: 28,
-    date: "08-04-2025",
-    location: "Bourj Bou Arreridj",
-    description: "Mother of two little girls, killed by her husband, alongside her two daughters, aged 4 and 6 years old. Husband then tried to fabricate a story about the mother killing her daughters & commiting suicide."
-  },
-  {
-    id: 17,
-    name: "Unknown",
-    age: 4,
-    date: "08-04-2025",
-    location: "Bourj Bou Arreridj",
-    description: "Little girl, aged 4, killed by her stepdad, alongside her mother and sister, related to the case of Sarah Ait Mohand."
-  },
-  {
-    id: 18,
-    name: "Unknown",
-    age: 6,
-    date: "08-04-2025",
-    location: "Bourj Bou Arreridj",
-    description: "Little girl, aged 6, killed by her stepdad, alongside her mother and sister, related to the case of Sarah Ait Mohand."
-  },
-  {
-    id: 19,
-    name: "Unknown",
-    age: "Unknown",
-    date: "14-04-2025",
-    location: "Reghaia, Algiers",
-    description: "Killed by her ex-husband. According to police, her body was found between trees near a train station."
-  },
-  {
-    id: 20,
-    name: "Saida Ben Hamouda",
-    age: 51,
-    date: "25-04-2025",
-    location: "Batna",
-    description: "Stabbed & strangled to death by her husband."
-  },
-  {
-    id: 21,
-    name: "Walida Derafa",
-    age: 48,
-    date: "28-04-2025",
-    location: "Ain azal, Setif",
-    description: "Hammered to death by her husband."
-  },
-  {id: 22,
-    name:"Maroua Boughachich",
-    age: 13,
-    date: "22-05-2025",
-    location: "Constantine",
-    description:"Disappeared on May 22, 2025. On June 29, a month after she vanished, DNA identified an unknown body found as hers."
-  }
-  
-  
-];
-
-export const activeYear = 2025;
-
-
 export function averageFrequency(events) {
   // Sort by date ascending
   const sorted = [...events].sort((a, b) => {
@@ -211,35 +25,37 @@ export function averageFrequency(events) {
 }
 
 
-export const victimesMemo = [
-  {
-    id: 1,
-    name: "Asma Bechkit",
-    age: 17,
-    date: "03-07-2013",
-    location: "Mila",
-    description: "Asma Bachkit, at just seventeen,A young woman from Mila, full of dreams unseen. On July 3rd, 2013, her baccalaureate won, She stepped out for butter, cakes to be done, To celebrate her triumph, sweet and new. But a man, who'd relentlessly pursued, Threatened and harassed her, day after day, Intercepted her then, blocking her way. She refused to speak, her spirit held strong, He plunged a knife, over fifteen times wrong. Asma never returned home, her vibrant light gone.",
-    image: "/images/victims/asmabechkit.png",
-    memorialText: "Remembered as a young woman with a bright future, her life tragically cut short."
-  },
-  {
-    id: 2,
-    name: "Yasmine Tarafi",
-    age: 17,
-    date: "06-07-2020",
-    location: "Bouira",
-    description: "Yasmine Tarafi was a 28-year-old lawyer from Bouira. On July 6, 2020, she was tragically murdered by her ex-fiancé, found with her throat slit in her car.",
-    image: "/images/victims/yasminetarafi.png",
-    memorialText: "Remembering Yasmine, a dedicated lawyer whose life was taken too soon.."
-  },
-  {
-    id: 3,
-    name: "Chaima Sadou",
-    age: 19,
-    date: "01-10-2020",
-    location: "Boumerdes",
-    description: "Chaima was a young woman, just 19 years old, living in the commune of Reghaia, Algiers. In 2017, when she was only 16, a man named Bouchlaghi Abdesslam, known as Rayan, violated her. She filed a complaint against him, but tragically, nothing came of it. Then, on October 1, 2020, fate cruelly intervened when she encountered him again. He took her to an abandoned train station in Thenia, Boumerdes. There, in a horrifying act, he beat, tortured, killed, and ultimately burned her. Her killer was later captured.",
-    image: "/images/victims/chaimasadou.png",
-    memorialText: "Her spirit, though brutally extinguished, will forever ignite a burning call for justice."
+
+
+export function calculateDaysSinceLastVictimDeath(victims) {
+  if (!Array.isArray(victims) || victims.length === 0 || !victims[victims.length-1].date) {
+    return null; // No valid data or first item missing date
   }
-]
+
+  const latestDateStr = victims[victims.length-1].date;
+  const [day, month, year] = latestDateStr.split('-').map(Number);
+  console.log(`Parsing date: ${latestDateStr} -> Day: ${day}, Month: ${month}, Year: ${year}`);
+  // Check if parsing resulted in valid numbers and date parts exist
+  if ([day, month, year].some(isNaN) || day < 1 || day > 31 || month < 1 || month > 12) {
+    console.error(`Invalid date format or values: ${latestDateStr}`);
+    return null;
+  }
+
+  // Create Date object using YYYY, MM-1, DD format for reliability
+  const victimDate = new Date(year, month - 1, day);
+
+  // Validate if the date object is a "real" date (e.g., handles "31-02-2023")
+  if (victimDate.getDate() !== day || victimDate.getMonth() !== (month - 1) || victimDate.getFullYear() !== year) {
+      console.error(`Date ${latestDateStr} is invalid or non-existent.`);
+      return null;
+  }
+
+  // Get today's date at midnight for consistent calculation
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+  const diffMs = today.getTime() - victimDate.getTime();
+  const millisecondsPerDay = 1000 * 60 * 60 * 24;
+
+  return Math.floor(diffMs / millisecondsPerDay);
+}

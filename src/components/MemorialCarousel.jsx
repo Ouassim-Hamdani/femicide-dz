@@ -1,6 +1,6 @@
 // components/MemorialCarousel.jsx
 import { useState } from 'react';
-import { Heart,ChevronRight,ChevronLeft } from 'lucide-react';
+import { Heart,ChevronRight,ChevronLeft,LoaderCircle  } from 'lucide-react';
 
 export const MemorialCarousel = ({ victims }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,7 +16,17 @@ export const MemorialCarousel = ({ victims }) => {
   };
 
   const currentVictim = victims[currentIndex];
-
+  console.log("Current Victim:", currentVictim);
+  if (!victims || victims.length === 0) {
+    // If no victims data is available, show a loading message
+    return (
+      <section className="bg-gray-900/40 py-8 px-4 sm:px-6 backdrop-blur-sm lg:px-8 transition">
+        <div className="max-w-5xl mx-auto text-center items-center flex justify-center text-white">
+          <LoaderCircle className='animate-spin'/>
+        </div>
+      </section>
+    );
+  }
   return (
     <section className="bg-gray-900/40 py-16 px-4 sm:px-6 backdrop-blur-sm  lg:px-8 transition">
       <div className="max-w-5xl  mx-auto">

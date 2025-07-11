@@ -100,7 +100,7 @@ export const MemorialSection = ({victims}) => {
                 }`}>
                     {currentVictims.map((victim, index) => (
                         <div
-                            key={`${victim.id}-${currentPage}`} // Force remount for animation
+                            key={`${victim._id}-${currentPage}`} // Force remount for animation
                             className="animate-fadeInUp"
                             style={{
                                 animationDelay: `${index * 0.1}s`,
